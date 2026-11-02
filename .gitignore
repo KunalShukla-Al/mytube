@@ -1,0 +1,20 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node
+node_modules/
+site/dist/
+
+# generated site data (built by the pipeline in CI; cache IS committed)
+site/public/data/*
+!site/public/data/.gitkeep
+
+# pipeline scratch
+data/tmp/
+.DS_Store

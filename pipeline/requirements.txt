@@ -1,0 +1,5 @@
+PyYAML>=6.0
+numpy>=1.26
+scikit-learn>=1.4
+fastembed>=0.3        # semantic embeddings (bge-small, ONNX, no PyTorch) — default similarity engine
+# Set USE_TFIDF=1 to force the lexical TF-IDF + LSA fallback instead.

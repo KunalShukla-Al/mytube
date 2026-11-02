@@ -1,0 +1,81 @@
+name: Build & Deploy MyTube
+
+# Manual trigger + weekly refresh (Sunday 02:00 IST = 20:30 UTC Saturday).
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 20 * * 6"
+
+permissions:
+  contents: write      # to commit the refreshed cache back to the repo
+  pages: write
+  id-token: write
+
+concurrency:
+  group: mytube-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"   # pinned: stable wheels for numpy/scikit-learn
+          cache: "pip"
+          cache-dependency-path: pipeline/requirements.txt
+
+      - name: Install pipeline deps
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Build data
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python -m pipeline.build
+
+      # Cache strategy: the video cache is COMMITTED to the repo (not actions/cache).
+      # actions/cache entries are evicted after ~7 idle days and have size caps, which
+      # would silently force an expensive full rebuild. A committed cache is
+      # deterministic, diffable, and guarantees cheap incremental runs.
+      - name: Commit refreshed cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/cache config/playlist_selection.json
+          if git diff --cached --quiet; then
+            echo "No cache changes."
+          else
+            git commit -m "data: refresh cache [skip ci]"
+            git push
+          fi
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build site
+        working-directory: site
+        run: |
+          npm ci
+          npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

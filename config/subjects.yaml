@@ -1,0 +1,103 @@
+# Subject tagging rules. A video gets a subject if any keyword appears in its
+# title, tags, or the playlist title it sits in (case-insensitive, word-ish match).
+# Channel default_subject (in channels.yaml) is added too.
+#
+# section: "Sem 4/5/6" -> Coursework page. "Track" -> AI/ML page.
+# code: official SRM course code (shown on the Coursework page).
+
+subjects:
+  # ---- Sem 4 ----
+  - id: probability_statistics
+    name: Probability and Statistics
+    code: 21MAB301T
+    section: Sem 4
+    keywords: [probability, statistics, statistical, "random variable", distribution, bayes, "hypothesis test", "central limit", regression, variance, "standard deviation", "normal distribution", "poisson", "binomial", inference, "confidence interval"]
+  - id: daa
+    name: Design and Analysis of Algorithms
+    code: 21CSC204J
+    section: Sem 4
+    keywords: ["design and analysis", "analysis of algorithms", algorithm, "greedy", "dynamic programming", "divide and conquer", "time complexity", "asymptotic", "big o", "np-complete", "graph theory", dijkstra, "shortest path", "minimum spanning", backtracking, recurrence]
+  - id: dbms
+    name: Database Management Systems
+    code: 21CSC205P
+    section: Sem 4
+    keywords: [dbms, database, sql, "normal form", normalization, "er diagram", "e-r model", "relational", transaction, indexing, "b+ tree", "b-tree", "join", acid, "query optimization"]
+  - id: ai
+    name: Artificial Intelligence
+    code: 21CSC206T
+    section: Sem 4
+    keywords: ["artificial intelligence", "a* search", "search algorithm", heuristic, "knowledge representation", "propositional logic", "first order logic", "expert system", "minimax", "alpha beta", "constraint satisfaction", "state space"]
+  - id: image_processing
+    name: Digital Image Processing
+    code: Professional Elective-I
+    section: Sem 4
+    keywords: ["image processing", "digital image", "image enhancement", "image segmentation", "edge detection", "image restoration", histogram, "spatial filter", morphological, "fourier transform", convolution, "image compression", "computer vision", pixel, thresholding]
+
+  # ---- Sem 5 ----
+  - id: discrete_math
+    name: Discrete Mathematics
+    code: 21MAB302T
+    section: Sem 5
+    keywords: ["discrete math", "set theory", "propositional", "predicate logic", "proof", "mathematical induction", "combinatorics", "counting", "recurrence relation", "generating function", "relations", "lattice", "boolean algebra", "number theory", "graph theory"]
+  - id: flat
+    name: Formal Language and Automata
+    code: 21CSC301T
+    section: Sem 5
+    keywords: ["theory of computation", automata, "finite automata", "regular expression", "regular language", "context free", "pushdown", "turing machine", "pumping lemma", "dfa", "nfa", grammar, decidability, "formal language"]
+  - id: computer_networks
+    name: Computer Networks
+    code: 21CSC302J
+    section: Sem 5
+    keywords: ["computer network", networking, "tcp", "udp", "ip address", subnet, "osi model", routing, "ospf", dns, http, tls, ssl, ethernet, "data link", "transport layer", packet, "network layer"]
+  - id: ml_data_analytics
+    name: Machine Learning for Data Analytics
+    code: 21CSC307P
+    section: Sem 5
+    keywords: ["machine learning", "data analytics", "data science", "supervised learning", "unsupervised", "regression", classification, clustering, "random forest", "decision tree", "svm", "gradient descent", "feature engineering", "scikit", pandas, "k-means"]
+
+  # ---- Sem 6 ----
+  - id: full_stack
+    name: Full Stack Development
+    code: 21CSS301T
+    section: Sem 6
+    keywords: ["full stack", "web development", react, "next.js", nextjs, node, nodejs, express, javascript, typescript, "html", "css", mongodb, api, frontend, backend, django, vue, tailwind, mern]
+  - id: software_engineering
+    name: Software Engineering and Project Management
+    code: 21CSC303T
+    section: Sem 6
+    keywords: ["software engineering", "system design", "design pattern", agile, scrum, "continuous delivery", "ci/cd", devops, "clean code", "solid", testing, "unit test", "project management", "software development life cycle", sdlc, uml, microservices, scalability]
+  - id: compiler_design
+    name: Compiler Design
+    code: 21CSC304J
+    section: Sem 6
+    keywords: ["compiler", "compiler design", "lexical analysis", "parsing", parser, "syntax analysis", "semantic analysis", "code generation", "intermediate code", "lr parsing", "ll parsing", tokeniz, "symbol table", "abstract syntax tree", "programming language"]
+
+  # ---- Deep AI/ML Track (ordered basics -> advanced in the UI) ----
+  - id: maths_for_ml
+    name: Maths for ML
+    section: Track
+    keywords: ["linear algebra", calculus, "essence of", "imaginary number", eigenvalue, vector, matrix, gradient, derivative, "probability", "math for machine learning"]
+  - id: ml_foundations
+    name: Foundations
+    section: Track
+    keywords: ["machine learning specialization", "deep learning specialization", "cs229", "cs230", "6.s191", "intro to deep learning", "neural network", "mlops", "andrew ng"]
+  - id: ml_intuition
+    name: Intuition
+    section: Track
+    keywords: ["explained", "visually", "intuition", "demystified", "statquest", "how it works", "learning to see"]
+  - id: ml_from_scratch
+    name: Build from Scratch
+    section: Track
+    keywords: ["from scratch", "build a", "let's build", "zero to hero", "implement", "code a", "micrograd", "makemore", "nanogpt", "line by line", "coding a"]
+  - id: applied_genai
+    name: Applied GenAI
+    section: Track
+    keywords: ["rag", "retrieval augmented", "lora", "fine-tun", "finetun", "langchain", "llm app", "ai agent", "agents", "quantiz", "ollama", "prompt", "rlhf", "vector database", "embeddings"]
+  - id: computer_vision
+    name: Computer Vision
+    section: Track
+    keywords: ["computer vision", "image processing", "object detection", "cnn", "convolutional", "segmentation", "yolo", "diffusion", "stable diffusion", "image generation", "vision transformer", "optical flow"]
+  - id: papers
+    name: Papers & Frontier
+    section: Track
+    keywords: ["paper explained", "paper review", "papers explained", "arxiv", "neurips", "icml", "research paper", "attention is all you need", "classic paper", "paper breakdown"]

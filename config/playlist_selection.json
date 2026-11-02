@@ -1,0 +1,401 @@
+{
+  "@dresuresh": {
+    "PLTrX9MO6Xqfs": {
+      "title": "Unit 5: 26MAB1001T - Calculus and Linear Algebra - Sequece and Series",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLUceOCPSOo5A": {
+      "title": "Unit 4: 26MAB1001T - Calculus and Linear Algebra",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLHVazsnwsndU": {
+      "title": "Unit 3: 26MAB1001T - Calculus and Linear Algebra",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLV-Bs0Gs_NsI": {
+      "title": "Unit 2 - 26MAB1001T: Ordinary Differential Equations",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLSFGc5kYcVaM": {
+      "title": "Unit - 1 : 26MAB1001T - Calculus and Linear Algebra",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUeiebyUYZQoKYyO7n8KAWmdt": {
+      "title": "Unit - 4 Probability and Applied Statistics - 21MAB304T",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUeiWR0MP2wfJIO8op5eOW1fM": {
+      "title": "Unit - 5 Probability and Applied Statistics - 21MAB304T",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUeg-EORCtjM3QXb4Kpudqe3n": {
+      "title": "Unit - 2 Probability and Applied Statistics - 21MAB304T",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUejzzBYDQgHWoTKq9ZB8DwK_": {
+      "title": "Unit - 1 Probability and Applied Statistics - 21MAB304T",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUegnYNv26s2rYMwO3-SX4hvk": {
+      "title": "Unit - 1 Version 2: Probability and Statistics 21MAB301T",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUeijwV7WnahvQS-oAqkKrrWZ": {
+      "title": "Unit - 1 Probability & Stochastic Process - 21MAB203T",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUehx0KXgyMIzhtZ7RCSYK6Cs": {
+      "title": "Unit 1 - Version 2 - Probability and Queueing Theory :  21MAB204T",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUehJD1zZ13dvQNtpY_0EewTc": {
+      "title": "21MAB303T  - Unit -3: Hypothesis Testing",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUejRRAZ7ViNnNTl2UFD00HNl": {
+      "title": "21MAB303T - Unit 5 - Biostatistics",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUehSTBLdC3dLTEpsg-KOcAdc": {
+      "title": "21MAB303T - Unit 4 - Biostatistics",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUegUShJUSwu3e4JUv9PB7Zg7": {
+      "title": "21MAB303T - Unit 1 - Biostatistics",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUeiZAbg6Z-oYFyRO_6FH_Dfq": {
+      "title": "Unit 3 -  21MAB209T  - TRANSFORMS AND COMPUTATIONAL TECHNIQUES",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUejldDHakI0vncSIdp051Z5S": {
+      "title": "Unit -2 - 21MAB209T - Transforms and Computational Techniques - Semester 3",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUegUPWnTfS7Kcjde0fDuOIdw": {
+      "title": "Unit 1 -  21MAB209T  - TRANSFORMS AND COMPUTATIONAL TECHNIQUES",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUejlmkQLZQKM14WJltazcPAQ": {
+      "title": "Unit - 5 : Complex Integration - 21MAB102T",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUegWwdjLgE6HHs1r0QMeeAR0": {
+      "title": "Unit - 4 :  Analytic Functions - 21MAB102T",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUegp5wR6N186bY1FZUKs6Vhq": {
+      "title": "Unit - 3 : Laplace Transforms: 21MAB102T",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUehoqpR7SjLAEl9TC6atOtjA": {
+      "title": "Unit - 2 : Vector Calculus Sem 2 : 21MAB102T",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUehsDGIcXl87sB0hlJxj8bgF": {
+      "title": "Unit - 1 : Integral Calculus - Sem 2 - 21MAB102T",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUegpsEnjr8dWHMRzCmD8TiFn": {
+      "title": "21MAB101T - Semester 1 - Unit - 5:  Sequence and Series",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUegXKK-B4uUR1QPuwnzcXlK8": {
+      "title": "21MAB101T - Semester 1 - Unit - 4 :  Application of Differential Calculus",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUehxZi-S3zl94rM-Aa_z-lpU": {
+      "title": "TBVP - Unit - 5 - Z-Transforms - 21MAB201T : Unit 5",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUeiLzh_o2dD-HGD-yB2pKlo9": {
+      "title": "21MAB101T - Semester 1 - Unit - 3 Ordinary Differential Equations",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUehLPxZ-yw3udQ1OuFytsBVH": {
+      "title": "TBVP - Unit - 4 - 21MAB201T - Semester 3",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUehyKmS--qiyKbK6nqfjBIYF": {
+      "title": "21MAB101T  - Semester 1 - Unit - 2 - Functions of Several Variables - 21MAB101T  - Semester 1",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUejO0zZs-f7HqTzVvoeYx4br": {
+      "title": "TBVP  -  Unit 3 - 21MAB201T - Semester 3",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUei8J1MmzMG8tWE0Zbn7yi4E": {
+      "title": "21MAB101T  - Semester 1 - Unit 1 - Matrices - Calculus and Linear Algebra",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUejSZKUgs6pAvIBWvmyfwqcY": {
+      "title": "TBVP - Unit 2 - 21MAB201T  - Semester 3",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUeh1yEnQ1inw20VEL0gGWxgZ": {
+      "title": "TBVP  - Unit 1 - - 21MAB201T - Semester 3",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLrhWE6dwHUei71eBfZpmZIRwG-YT7qBZl": {
+      "title": "21MAB303T - Unit - 2 : Biostatistics for Biotechnologists",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUejM_Smfd40IbJwaGBXuhdSI": {
+      "title": "PQT - Unit - 5 : Probability and Queueing Theory - 21MAB204T",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUejToNA2tYoF8Vw1csQ34sGW": {
+      "title": "Probability and Statistics - 21MAB301T - P & S : Unit - 4",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUejAShw1S3YUO7nRwUg4ORGO": {
+      "title": "Probability and Statistics - 21MAB301T - P & S : Unit - 3",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUeirvxCCsQnih5BO66zh9fi2": {
+      "title": "Probability and Statistics - 21MAB301T - P & S : Unit - 2",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUeiDdJQsVm3lWLwgjNdquahm": {
+      "title": "Probability and Statistics - 21MAB301T - P & S : Unit - 1",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUeh5kCyy-l7_zmEPfAnrjk65": {
+      "title": "PQT - Unit - 4 :  Probability and Queueing Theory   -  21MAB204T",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUegR0LtYvoW_7omUsAAJh_74": {
+      "title": "PQT - Unit - 3 :  Probability and Queueing Theory - 21MAB204T",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUejDwxsDGiEAgSr5seCvgUgj": {
+      "title": "PQT - Unit - 2  :  Probability and Queueing Theory   -  21MAB204T",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLrhWE6dwHUeiSTblHiOe9RyvGBAp8nAeo": {
+      "title": "PQT - Unit - 1  : Probability and Queueing Theory -  21MAB204T",
+      "keep": true,
+      "reason": "include match"
+    }
+  },
+  "@JennyslecturesCSIT": {
+    "PLc5DzPqr5C8A": {
+      "title": "100 Days to Become a Better Engineer",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLcqXSQTRJiJQ": {
+      "title": "Projects",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31bpNH4ItrdiJEGvxWNxUmDe": {
+      "title": "Sorting Algorithms (DSA)",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLdo5W4Nhv31ZRG9SzH6Hoi4X3yhS42C83": {
+      "title": "Dynamic Programming (2026)",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31afwRSvnImtqUCmR5ffpdeC": {
+      "title": "FREE Certification Courses",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31YZLIHFe6j7ihcmg1mpWBDb": {
+      "title": "2026 (Must Watch)",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31bFkfsfPDJcvuczC5baEFGy": {
+      "title": "GenAI Course for Beginners",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31aZT6kz1A7ieO3Q1_RDaBEv": {
+      "title": "Data Structure & Algorithms Course (2026)",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLdo5W4Nhv31YIe0BQc-2JVLG9-caiRSJf": {
+      "title": "Best Books Series",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31ZXuYgahsaQjZPwUJuWuvX-": {
+      "title": "DeepSeek: The future of AI",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31ZF4FXxKpuXecyZ03kWdIhD": {
+      "title": "AI related Videos",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31a7A5Az4Mxp_PcNPXItprPp": {
+      "title": "JAVA Placement Course",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31aYsH-xgmPu_XWfucWtJB-k": {
+      "title": "Coding Interview Questions (LeetCode Questions)",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31bxkfM_ICC1VWhvpUy7s1-p": {
+      "title": "My Courses",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31bB47BSh9DUu8EpF-2w7wOg": {
+      "title": "Live Stream",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31bmS4_nebQ5_wYhvxO6PtU9": {
+      "title": "Other Important Stuff (Scholarships)",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31ZHlFFDS9BmpMWnR1Wwgddc": {
+      "title": "Interview Questions",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31aqixpCLVQKL6WXkTHrt2ev": {
+      "title": "Internships",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31YE5IuPW9IWjxZ12zjB0Z55": {
+      "title": "Python Shorts",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31bZSiqiOL5ta39vSnBxpOPT": {
+      "title": "Python Full Course",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31YU5Wx1dopka58teWP9aCee": {
+      "title": "C++ Placement Course",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31ZiGV_Rrnb53fY4PNZzkiic": {
+      "title": "shorts",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31Yu1igxTE2x0aeShbKtVcCy": {
+      "title": "Printing Pattern Programs in C",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S": {
+      "title": "Programming in C",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31ZTn2P9vF02bkb3SC8uiUUn": {
+      "title": "Design and Analysis of Algorithms(DAA)",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLdo5W4Nhv31ayYoUbdDa-glAosCzbIJol": {
+      "title": "GATE exam preparation",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31aPKkjCgPdrUUaNOaBHiZoQ": {
+      "title": "UGC NET Preparation",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31YvlDpJhvOYbM9Ap8UypgEy": {
+      "title": "Placements Series",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31ZqL2VFdQo3erpT8xUppJHE": {
+      "title": "Funny bloopers | Behind the scene",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31aGZY3Wi9mTThGJvWblpQ9g": {
+      "title": "My Comment Box",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31b33kF46f9aFjoJPOkdlsRc": {
+      "title": "DBMS (Database Management System)",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31a_tkDRMI_Z5jhArLHJ5zZn": {
+      "title": "Vlogs",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU": {
+      "title": "Data Structures and Algorithms",
+      "keep": true,
+      "reason": "include match"
+    },
+    "PLdo5W4Nhv31aBrJE1WS4MR9LRfbmZrAQu": {
+      "title": "Dynamic Programming",
+      "keep": false,
+      "reason": "no include match / excluded"
+    },
+    "PLdo5W4Nhv31a5ucW_S1K3-x6ztBRD-PNa": {
+      "title": "Operating Systems",
+      "keep": false,
+      "reason": "no include match / excluded"
+    }
+  }
+}

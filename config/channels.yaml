@@ -1,0 +1,188 @@
+# MyTube channel list. Edit this file to add/remove channels.
+#
+# mode: channel   -> include every long-form upload
+# mode: playlists  -> include ONLY playlists whose title matches include/ keywords
+#                     (minus any matching exclude/ keywords); decisions are
+#                     recorded in config/playlist_selection.json for review.
+#
+# group: used for the Channels page and for a channel's default subject.
+
+channels:
+  # ---- Whole-channel ----
+  - name: Chai aur Code
+    handle: "@chaiaurcode"
+    group: Full Stack
+    mode: channel
+  - name: Neural Breakdown with AVB
+    handle: "@avb_fj"
+    group: AI/ML
+    mode: channel
+  - name: Y Combinator
+    handle: "@ycombinator"
+    group: Startups & Talks
+    mode: channel
+  - name: Milen Patel
+    handle: "@milen-patel"
+    group: Core CS
+    mode: channel
+  - name: Andrej Karpathy
+    handle: "@AndrejKarpathy"
+    group: AI/ML
+    mode: channel
+  - name: 3Blue1Brown
+    handle: "@3blue1brown"
+    group: Maths
+    mode: channel
+  - name: MIT OpenCourseWare
+    handle: "@mitocw"
+    group: University Courses
+    mode: channel
+  - name: Abdul Bari
+    handle: "@abdul_bari"
+    group: Core CS
+    mode: channel
+  - name: freeCodeCamp.org
+    handle: "@freecodecamp"
+    group: Full Stack
+    mode: channel
+  - name: Neso Academy
+    handle: "@nesoacademy"
+    group: Core CS
+    mode: channel
+  - name: Gate Smashers
+    handle: "@GateSmashers"
+    group: Core CS
+    mode: channel
+  - name: TrevTutor
+    handle: "@Trevtutor"
+    group: Maths
+    mode: channel
+  - name: WilliamFiset
+    handle: "@WilliamFiset-videos"
+    group: Core CS
+    mode: channel
+  - name: Practical Networking
+    handle: "@PracticalNetworking"
+    group: Core CS
+    mode: channel
+    default_subject: computer_networks
+  - name: StatQuest with Josh Starmer
+    handle: "@statquest"
+    group: Maths
+    mode: channel
+  - name: zedstatistics
+    handle: "@zedstatistics"
+    group: Maths
+    mode: channel
+    default_subject: probability_statistics
+  - name: codebasics
+    handle: "@codebasics"
+    group: AI/ML
+    mode: channel
+  - name: Krish Naik
+    handle: "@krishnaik06"
+    group: AI/ML
+    mode: channel
+  - name: Luis Serrano Academy
+    handle: "@SerranoAcademy"
+    group: AI/ML
+    mode: channel
+  - name: sentdex
+    handle: "@sentdex"
+    group: AI/ML
+    mode: channel
+  # Web-dev channels: no blanket default — they post vlogs/opinions too, and
+  # their tutorials reliably carry keywords (react/node/css...) in the title.
+  - name: Traversy Media
+    handle: "@TraversyMedia"
+    group: Full Stack
+    mode: channel
+  - name: The Net Ninja
+    handle: "@NetNinja"
+    group: Full Stack
+    mode: channel
+  - name: Web Dev Simplified
+    handle: "@WebDevSimplified"
+    group: Full Stack
+    mode: channel
+  - name: ByteByteGo
+    handle: "@ByteByteGo"
+    group: Software Engineering
+    mode: channel
+  - name: Modern Software Engineering
+    handle: "@ModernSoftwareEngineeringYT"
+    group: Software Engineering
+    mode: channel
+    default_subject: software_engineering
+  - name: Jordan has no life
+    handle: "@jordanhasnolife5163"
+    group: Software Engineering
+    mode: channel
+    default_subject: software_engineering
+  - name: Stanford Online
+    handle: "@stanfordonline"
+    group: University Courses
+    mode: channel
+  - name: DeepLearning.AI
+    handle: "@Deeplearningai"
+    group: AI/ML
+    mode: channel
+  - name: MIT 6.S191 (Alexander Amini)
+    handle: "@AAmini"
+    group: AI/ML
+    mode: channel
+  - name: Yannic Kilcher
+    handle: "@YannicKilcher"
+    group: AI/ML
+    mode: channel
+  - name: Umar Jamil
+    handle: "@umarjamilai"
+    group: AI/ML
+    mode: channel
+  - name: The AI Epiphany
+    handle: "@TheAIEpiphany"
+    group: AI/ML
+    mode: channel
+  - name: AI Coffee Break with Letitia
+    handle: "@AICoffeeBreak"
+    group: AI/ML
+    mode: channel
+  - name: Sam Witteveen
+    handle: "@samwitteveenai"
+    group: AI/ML
+    mode: channel
+  - name: Welch Labs
+    handle: "@WelchLabs"
+    group: AI/ML
+    mode: channel
+  - name: Rich Radke
+    handle: "@RichRadke"
+    group: Image Processing & CV
+    mode: channel
+    default_subject: image_processing
+  - name: First Principles of Computer Vision
+    handle: "@firstprinciplesofcomputerv3258"
+    group: Image Processing & CV
+    mode: channel
+    default_subject: image_processing
+  - name: EC Academy
+    handle: "@ECAcademy"
+    group: Image Processing & CV
+    mode: channel
+    default_subject: image_processing
+
+  # ---- Playlist-only ----
+  - name: Dr. E. Suresh
+    handle: "@dresuresh"
+    group: Maths
+    mode: playlists
+    default_subject: probability_statistics
+    include: [probability, statistics, hypothesis, "21mab301t", "21mab304t", "21mab303t", stochastic, queueing]
+    exclude: [calculus, "linear algebra", transform, "vector calculus", differential, evolute, laplace, "complex", "sequence and series", "26mab1001t", "21mab101t", "21mab102t", "21mab201t", "21mab209t"]
+  - name: Jenny's Lectures CS IT
+    handle: "@JennyslecturesCSIT"
+    group: Core CS
+    mode: playlists
+    default_subject: daa
+    include: ["design and analysis", daa, "data structure", dsa, algorithm, sorting, "dynamic programming"]
+    exclude: [placement, genai, "gen ai", python, "c++", java, "c programming", interview, internship, scholarship]
